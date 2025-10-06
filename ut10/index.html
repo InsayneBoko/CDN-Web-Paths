@@ -125,6 +125,7 @@
     </div>
 
     <script id="tick-worker" type="javascript/worker">
+		
       let running = false;
       let stop_called = false;
 
@@ -384,10 +385,10 @@
       function manifestFiles()
       {
         return [ "runner.data",
-"runner.js",
-"runner.wasm",
-"audio-worklet.js",
-"game.unx" ].join( ";");
+"/ut10/runner.js",
+"/ut10/runner.wasm",
+"/ut10/audio-worklet.js",
+"/ut10/game.unx" ].join( ";");
       }
 
       function manifestFilesMD5()
